@@ -610,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 814f4326a50812947b2469896d89a215, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.97
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 814f4326a50812947b2469896d89a215, type: 3}
       propertyPath: m_LocalPosition.y
@@ -701,6 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a2e9a9930a9d490eb36d328fc442de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: 0
   explosionParticle: {fileID: 457521882}
   dirtParticle: {fileID: 373947864}
   jumpSound: {fileID: 8300000, guid: 0f7d0b7c3397f4dac91f20e8a77d2d57, type: 3}
@@ -708,7 +709,6 @@ MonoBehaviour:
   jumpForce: 600
   gravityModifier: 1.5
   isOnGround: 1
-  gameOver: 0
 --- !u!82 &1072922186
 AudioSource:
   m_ObjectHideFlags: 0
